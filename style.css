@@ -1,0 +1,76 @@
+*{
+    background-color: lightpink;
+    color:darkviolet;
+    box-sizing: border-box;
+    padding:5px;
+}
+/* This is how to taget all of your code */
+/* padding: one value (number) represents padding on all sides */
+
+/* body {
+    background-image: url("backgroundsky.png");
+} */
+
+/* p {
+    color:rgba(120, 245, 17, 0.5);
+    background-color: black;
+    font-size:50px;
+    font-family: 'Italianno', cursive;
+    font-weight:700;
+} */
+    /* fourth rgb value is transparency */
+
+h1{
+    font: size 36px;
+}
+/* This is how to target and element within our HTML */
+
+h2{
+    font: size 28px;
+}
+
+p {
+    size: 24px;
+}
+
+.welcome{
+    color: darkmagenta;
+    size:12px;
+}
+/* personalised class name needs a . */
+
+.c{
+    text-align: center;
+}
+
+#pokemon {
+    width: 40%;
+}
+
+#navbar{
+    background-color: darkblue;
+    height:40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family:unset;
+}
+
+#navbar a {
+    color: white;
+    background-color: darkblue;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: goldenrod;
+}
+
+.listten {
+    display: flex;
+}
+
+.imagecenter {
+    display: flex;
+    justify-content: center;
+}
